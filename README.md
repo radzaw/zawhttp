@@ -2,6 +2,11 @@
 
 A lightweight HTTP client for testing APIs, in the spirit of Postman, written in C#. A sibling of ZawSQL, sharing its architecture and look.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/screenshots/zawhttp-dark.png">
+  <img src="assets/screenshots/zawhttp-light.png" alt="ZawHTTP: a collection of saved requests in the sidebar, a GET request with its pretty-printed JSON response">
+</picture>
+
 The backend is an ASP.NET Core app that sends the requests (so there are no browser CORS limits, and it can read local files for uploads). The UI is plain HTML/CSS/JS embedded in the executable. ZawHTTP opens it in a chromeless **app-mode window** of an installed Chromium browser (Chrome, Edge, Chromium or Brave), so it looks and behaves like a desktop window on **Windows, Linux and macOS**. Closing the window quits the app.
 
 ## Features
