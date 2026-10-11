@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ZawHTTP/ZawHTTP.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ZawHTTP.Tests/ZawHTTP.Tests.csproj" />
+  </Folder>
+</Solution>
